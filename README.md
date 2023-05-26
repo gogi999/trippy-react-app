@@ -1,1 +1,0 @@
-# trippy-react-app
