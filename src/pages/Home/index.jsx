@@ -1,6 +1,7 @@
 import homeImg from '../../assets/images/12.jpg';
 import Destination from '../../components/Destination';
 import Hero from '../../components/Hero';
+import Trip from '../../components/Trip';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 btnText="Travel Plan"
             />
             <Destination />
+            <Trip />
         </>
     );
 }

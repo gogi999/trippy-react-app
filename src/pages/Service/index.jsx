@@ -1,5 +1,6 @@
 import serviceImg from '../../assets/images/3.jpg';
 import Hero from '../../components/Hero';
+import Trip from '../../components/Trip';
 
 const Service = () => {
     return (
@@ -12,6 +13,7 @@ const Service = () => {
                 url="/"
                 btnClass="hide"
             />
+            <Trip />
         </>
     );
 }

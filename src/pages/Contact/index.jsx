@@ -1,4 +1,5 @@
 import contactImg from '../../assets/images/2.jpg';
+import ContactForm from '../../components/ContactForm';
 import Hero from '../../components/Hero';
 
 const Contact = () => {
@@ -12,6 +13,7 @@ const Contact = () => {
                 url="/"
                 btnClass="hide"
             />
+            <ContactForm />
         </>
     );
 }

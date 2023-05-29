@@ -1,4 +1,5 @@
 import aboutImg from '../../assets/images/night.jpg';
+import AboutUs from '../../components/AboutUs';
 import Hero from '../../components/Hero';
 
 const About = () => {
@@ -8,10 +9,10 @@ const About = () => {
                 cName="hero-mid" 
                 heroImg={aboutImg} 
                 title="About" 
-                // text="Choose Your Favourite Destination."
                 url="/"
                 btnClass="hide"
             />
+            <AboutUs />
         </>
     );
 }

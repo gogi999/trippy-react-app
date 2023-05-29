@@ -1,9 +1,14 @@
-import './index.css';
+import '../Trip/index.css';
 
-const TripData = () => {
+// eslint-disable-next-line react/prop-types
+const TripData = ({ image, heading, text }) => {
   return (
     <div className="t-card">
-      <h1></h1>
+      <div className="t-image">
+        <img src={image} alt="image" />
+      </div>
+      <h4>{heading}</h4>
+      <p>{text}</p>
     </div>
   );
 }
